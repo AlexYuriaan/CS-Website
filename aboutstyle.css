@@ -1,0 +1,44 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(coffeebeans2.jpg);     
+}
+h1,h2,h4 {
+    color: white;
+}
+h3 {
+    color:yellow;
+    outline: 10px black;
+    border: black;
+    border-radius: 10px;
+    background: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+p {
+    color: white;
+    text-size-adjust: 10px;
+    font-size: larger;
+}
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    padding-right: 15%;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff0606;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    
+}
+button:hover {background-color: #000000}
+
+button:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }

@@ -1,0 +1,32 @@
+
+/* main css file */
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    padding-right: 23.2%;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff0606;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    
+}
+button:hover {background-color: #000000}
+
+button:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
+
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(page1background.jpg);     
+}
